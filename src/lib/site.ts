@@ -5,6 +5,8 @@ export const site = {
   yearsExperience: 15,
   domain: "couvreur-bdx.net",
   url: "https://couvreur-bdx.net",
+  /** Clé IndexNow (fichier public/{key}.txt à la racine). */
+  indexNowKey: "4f844d506563f7f1f2421c46791ce15b",
   tagline: "Artisan depuis 15 ans autour de Coutras",
   description:
     "Artisan depuis 15 ans à Chamadelle, près de Coutras. Pose et entretien de toiture, nettoyage de toiture, taille de haies et terrassement. Travaux sous garantie décennale.",
