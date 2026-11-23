@@ -1,10 +1,11 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { JsonLd } from "@/components/seo/JsonLd";
 import { ButtonLink } from "@/components/ui/ButtonLink";
 import { services } from "@/content/services";
 import { getZone, zones } from "@/content/zones";
-import { createMetadata } from "@/lib/seo";
+import { breadcrumbJsonLd, createMetadata } from "@/lib/seo";
 import { site } from "@/lib/site";
 
 export function generateStaticParams() {
@@ -22,6 +23,14 @@ export async function generateMetadata({
     title: zone.seoTitle.replace(` | ${site.name}`, ""),
     description: zone.seoDescription,
     path: `/zones/${zone.slug}`,
+    keywords: [
+      `couvreur ${zone.name}`,
+      `pose toiture ${zone.name}`,
+      `nettoyage toiture ${zone.name}`,
+      `entretien toiture ${zone.name}`,
+      `terrassement ${zone.name}`,
+      site.shortName,
+    ],
   });
 }
 
@@ -34,8 +43,21 @@ export default async function ZonePage({ params }: PageProps<"/zones/[slug]">) {
 
   return (
     <article className="bg-canvas">
+      <JsonLd
+        data={breadcrumbJsonLd([
+          { name: "Accueil", path: "/" },
+          { name: `Couvreur à ${zone.name}`, path: `/zones/${zone.slug}` },
+        ])}
+      />
       <div className="shell py-16 sm:py-20">
-        <p className="text-xs font-semibold uppercase tracking-[0.2em] text-accent">
+        <nav aria-label="Fil d’Ariane" className="text-xs font-semibold uppercase tracking-[0.2em] text-accent">
+          <Link href="/" className="hover:text-ink">
+            Accueil
+          </Link>
+          {" / "}
+          <span className="text-ink">Couvreur à {zone.name}</span>
+        </nav>
+        <p className="mt-3 text-xs font-semibold uppercase tracking-[0.2em] text-stone">
           Zone d’intervention, {zone.department}
         </p>
         <h1 className="mt-3 max-w-3xl text-4xl font-medium tracking-tight text-ink sm:text-5xl">

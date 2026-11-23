@@ -4,10 +4,16 @@ import { createMetadata } from "@/lib/seo";
 import { site } from "@/lib/site";
 
 export const metadata: Metadata = createMetadata({
-  title: "Contact & devis",
+  title: "Contact et devis gratuit",
   description:
-    "Contactez Couvreur BDX pour un devis toiture autour de Coutras, Libourne et le Libournais.",
+    "Demandez un devis gratuit à Couvreur BDX : pose, entretien ou nettoyage de toiture autour de Coutras et Libourne. Tél. 07 80 07 45 45.",
   path: "/contact",
+  keywords: [
+    "devis couvreur Coutras",
+    "devis toiture Libourne",
+    "contacter couvreur Chamadelle",
+    "Couvreur BDX téléphone",
+  ],
 });
 
 export default function ContactPage() {

@@ -17,15 +17,15 @@ export const zones: Zone[] = [
     department: "Gironde (33)",
     distance: "Base d’intervention",
     intro:
-      "Basés autour de Coutras, nous intervenons en priorité sur la commune et les quartiers proches : toitures de maisons individuelles, rénovations de couverture, zinguerie et dépannages après intempéries. Un artisan local, joignable facilement, qui connaît les constructions du secteur.",
+      "Basés à Chamadelle, tout près de Coutras, nous intervenons en priorité sur la commune : pose de toiture, entretien, nettoyage, taille de haies et terrassement. Artisan local, joignable facilement.",
     highlights: [
-      "Interventions rapides sur Coutras centre et périphérie",
-      "Devis de couverture et démoussage",
-      "Suivi de chantier de proximité",
+      "Pose et entretien de toiture à Coutras",
+      "Nettoyage et démoussage",
+      "Devis gratuit sur place",
     ],
-    seoTitle: "Couvreur à Coutras (33) | Couvreur BDX",
+    seoTitle: "Couvreur à Coutras (33)",
     seoDescription:
-      "Couvreur artisan à Coutras : couverture, zinguerie, charpente et dépannage toiture. Devis gratuit dans le Libournais.",
+      "Couvreur à Coutras : pose, entretien et nettoyage de toiture, taille de haies et terrassement. Devis gratuit, garantie décennale.",
   },
   {
     slug: "libourne",
@@ -33,15 +33,15 @@ export const zones: Zone[] = [
     department: "Gironde (33)",
     distance: "~20 min de Coutras",
     intro:
-      "À Libourne et sur l’agglomération, Couvreur BDX réalise vos travaux de toiture : réfection, gouttières, recherche de fuite et entretien. Un interlocuteur unique pour les maisons de ville comme pour les pavillons des communes limitrophes.",
+      "À Libourne et sur l’agglomération, Couvreur BDX réalise pose de toiture, entretien, nettoyage et dépannage. Intervention depuis Chamadelle, devis clair.",
     highlights: [
-      "Couverture et zinguerie à Libourne",
-      "Dépannage fuite après orage",
-      "Rénovation de toitures anciennes",
+      "Pose et réfection de toiture à Libourne",
+      "Nettoyage de toiture",
+      "Dépannage après intempéries",
     ],
-    seoTitle: "Couvreur à Libourne | Couvreur BDX",
+    seoTitle: "Couvreur à Libourne",
     seoDescription:
-      "Artisan couvreur à Libourne et agglomération : couverture, zinguerie et dépannage. Intervention depuis Coutras.",
+      "Couvreur à Libourne : pose, entretien et nettoyage de toiture. Artisan basé près de Coutras, devis gratuit.",
   },
   {
     slug: "saint-denis-de-pile",
@@ -49,15 +49,15 @@ export const zones: Zone[] = [
     department: "Gironde (33)",
     distance: "~10 min de Coutras",
     intro:
-      "À Saint-Denis-de-Pile, nous prenons en charge couverture, démoussage et réparation de charpente. Commune voisine de Coutras : déplacements rapides, devis clair, chantier respectueux de votre habitation.",
+      "À Saint-Denis-de-Pile, nous prenons en charge pose, entretien et nettoyage de toiture, ainsi que taille de haies et terrassement. Commune voisine, déplacements rapides.",
     highlights: [
       "Proximité immédiate avec Coutras",
-      "Entretien et démoussage de toiture",
-      "Remplacement de tuiles et faîtages",
+      "Entretien et nettoyage de toiture",
+      "Taille de haies et terrassement",
     ],
-    seoTitle: "Couvreur Saint-Denis-de-Pile | Couvreur BDX",
+    seoTitle: "Couvreur Saint-Denis-de-Pile",
     seoDescription:
-      "Couvreur à Saint-Denis-de-Pile : toiture, zinguerie et entretien. Artisan local basé près de Coutras.",
+      "Couvreur à Saint-Denis-de-Pile : toiture, nettoyage et entretien. Artisan local près de Coutras.",
   },
   {
     slug: "les-eglisottes-et-chalaures",
@@ -65,15 +65,15 @@ export const zones: Zone[] = [
     department: "Gironde (33)",
     distance: "~15 min de Coutras",
     intro:
-      "Sur Les Églisottes-et-Chalaures, Couvreur BDX intervient pour la rénovation de couverture, la zinguerie et le traitement antimousse. Un service de proximité pour les maisons du bourg et des hameaux alentour.",
+      "Sur Les Églisottes-et-Chalaures, Couvreur BDX intervient pour la pose et l’entretien de toiture, le nettoyage et les travaux extérieurs.",
     highlights: [
-      "Réfection de toiture",
-      "Gouttières et évacuation des eaux",
-      "Conseils entretien adaptés au climat local",
+      "Pose et rénovation de toiture",
+      "Nettoyage de toiture",
+      "Travaux extérieurs",
     ],
-    seoTitle: "Couvreur Les Églisottes-et-Chalaures | Couvreur BDX",
+    seoTitle: "Couvreur Les Églisottes-et-Chalaures",
     seoDescription:
-      "Couvreur aux Églisottes-et-Chalaures : couverture et zinguerie par un artisan du secteur de Coutras.",
+      "Couvreur aux Églisottes-et-Chalaures : pose et nettoyage de toiture par un artisan du secteur de Coutras.",
   },
   {
     slug: "guitres",
@@ -81,15 +81,15 @@ export const zones: Zone[] = [
     department: "Gironde (33)",
     distance: "~15 min de Coutras",
     intro:
-      "À Guîtres, nous couvrons vos besoins toiture : pose, réparation, isolation des combles et recherche d’infiltration. Intervention soignée sur le patrimoine local comme sur les constructions plus récentes.",
+      "À Guîtres, nous couvrons vos besoins toiture : pose, entretien, nettoyage et réparation de fuite. Intervention soignée, suivi jusqu’à la fin.",
     highlights: [
-      "Travaux de couverture à Guîtres",
-      "Diagnostic fuite et réparation",
-      "Isolation sous toiture",
+      "Pose de toiture à Guîtres",
+      "Entretien et nettoyage",
+      "Réparation après intempéries",
     ],
-    seoTitle: "Couvreur à Guîtres | Couvreur BDX",
+    seoTitle: "Couvreur à Guîtres",
     seoDescription:
-      "Artisan couvreur à Guîtres : rénovation de toiture, zinguerie et dépannage depuis Coutras.",
+      "Couvreur à Guîtres : pose, entretien et nettoyage de toiture. Intervention depuis Coutras.",
   },
   {
     slug: "abzac",
@@ -97,15 +97,15 @@ export const zones: Zone[] = [
     department: "Gironde (33)",
     distance: "~10 min de Coutras",
     intro:
-      "Abzac fait partie de notre zone d’intervention quotidienne. Couverture, zinguerie, démoussage : on se déplace rapidement pour un devis ou un dépannage toiture.",
+      "Abzac fait partie de notre zone d’intervention quotidienne. Pose, entretien, nettoyage de toiture, taille de haies : on se déplace rapidement.",
     highlights: [
       "Interventions fréquentes sur Abzac",
-      "Entretien et démoussage",
-      "Remise en état après intempéries",
+      "Entretien et nettoyage de toiture",
+      "Taille de haies",
     ],
-    seoTitle: "Couvreur à Abzac | Couvreur BDX",
+    seoTitle: "Couvreur à Abzac",
     seoDescription:
-      "Couvreur à Abzac (33) : couverture, gouttières et démoussage. Artisan local autour de Coutras.",
+      "Couvreur à Abzac (33) : pose, entretien et nettoyage de toiture. Artisan local autour de Coutras.",
   },
   {
     slug: "saint-seurin-sur-l-isle",
@@ -113,15 +113,15 @@ export const zones: Zone[] = [
     department: "Gironde (33)",
     distance: "~20 min de Coutras",
     intro:
-      "À Saint-Seurin-sur-l’Isle, Couvreur BDX assure couverture, charpente légère et zinguerie. Un artisan du Libournais pour vos projets de rénovation toiture ou vos urgences d’infiltration.",
+      "À Saint-Seurin-sur-l’Isle, Couvreur BDX assure pose de toiture, entretien, nettoyage et dépannage. Un artisan du Libournais pour vos projets ou urgences.",
     highlights: [
-      "Rénovation de couverture",
-      "Zinguerie complète",
+      "Pose et rénovation de toiture",
+      "Nettoyage de toiture",
       "Dépannage après pluie",
     ],
-    seoTitle: "Couvreur Saint-Seurin-sur-l’Isle | Couvreur BDX",
+    seoTitle: "Couvreur Saint-Seurin-sur-l’Isle",
     seoDescription:
-      "Couvreur à Saint-Seurin-sur-l’Isle : toiture, zinguerie et dépannage. Intervention depuis Coutras.",
+      "Couvreur à Saint-Seurin-sur-l’Isle : pose et nettoyage de toiture. Intervention depuis Coutras.",
   },
   {
     slug: "montpon-menesterol",
@@ -129,15 +129,15 @@ export const zones: Zone[] = [
     department: "Dordogne (24)",
     distance: "~25 min de Coutras",
     intro:
-      "Nous intervenons aussi à Montpon-Ménestérol et alentours, juste de l’autre côté de la limite Gironde-Dordogne. Même exigence de chantier, même clarté de devis pour vos travaux de toiture.",
+      "Nous intervenons aussi à Montpon-Ménestérol, juste de l’autre côté de la limite Gironde–Dordogne. Même exigence de chantier pour vos travaux de toiture et extérieur.",
     highlights: [
-      "Couverture et zinguerie à Montpon",
+      "Pose et entretien de toiture à Montpon",
+      "Nettoyage de toiture",
       "Déplacement depuis Coutras",
-      "Entretien de toitures résidentielles",
     ],
-    seoTitle: "Couvreur Montpon-Ménestérol | Couvreur BDX",
+    seoTitle: "Couvreur Montpon-Ménestérol",
     seoDescription:
-      "Couvreur à Montpon-Ménestérol : couverture et dépannage toiture, artisan basé près de Coutras.",
+      "Couvreur à Montpon-Ménestérol : pose et entretien de toiture, artisan basé près de Coutras.",
   },
   {
     slug: "saint-medard-de-guizieres",
@@ -145,15 +145,15 @@ export const zones: Zone[] = [
     department: "Gironde (33)",
     distance: "~15 min de Coutras",
     intro:
-      "Sur Saint-Médard-de-Guizières, nous réalisons couverture, démoussage et réparation de gouttières. Un artisan accessible, habitué aux toitures du nord-Libournais.",
+      "Sur Saint-Médard-de-Guizières, nous réalisons pose, entretien et nettoyage de toiture. Artisan accessible, habitué aux toitures du nord-Libournais.",
     highlights: [
       "Travaux de toiture locaux",
-      "Démoussage et traitement",
+      "Nettoyage et entretien",
       "Devis gratuit sur place",
     ],
-    seoTitle: "Couvreur Saint-Médard-de-Guizières | Couvreur BDX",
+    seoTitle: "Couvreur Saint-Médard-de-Guizières",
     seoDescription:
-      "Couvreur à Saint-Médard-de-Guizières : couverture, zinguerie et entretien autour de Coutras.",
+      "Couvreur à Saint-Médard-de-Guizières : pose, entretien et nettoyage de toiture autour de Coutras.",
   },
   {
     slug: "pineuilh",
@@ -161,15 +161,15 @@ export const zones: Zone[] = [
     department: "Gironde (33)",
     distance: "~30 min de Coutras",
     intro:
-      "À Pineuilh et dans le secteur de Sainte-Foy, Couvreur BDX propose couverture, zinguerie et isolation des combles. Intervention planifiée pour les rénovations comme pour les urgences.",
+      "À Pineuilh et dans le secteur de Sainte-Foy, Couvreur BDX propose pose de toiture, entretien, nettoyage et terrassement.",
     highlights: [
-      "Rénovation de toiture à Pineuilh",
-      "Zinguerie et évacuation des eaux",
-      "Isolation des combles",
+      "Pose de toiture à Pineuilh",
+      "Entretien et nettoyage",
+      "Terrassement",
     ],
-    seoTitle: "Couvreur à Pineuilh | Couvreur BDX",
+    seoTitle: "Couvreur à Pineuilh",
     seoDescription:
-      "Artisan couvreur à Pineuilh : toiture, gouttières et isolation. Zone d’intervention depuis Coutras.",
+      "Couvreur à Pineuilh : pose et entretien de toiture. Zone d’intervention depuis Coutras.",
   },
   {
     slug: "sainte-foy-la-grande",
@@ -177,15 +177,15 @@ export const zones: Zone[] = [
     department: "Gironde (33)",
     distance: "~30 min de Coutras",
     intro:
-      "Sainte-Foy-la-Grande fait partie de notre périmètre d’intervention. Nous prenons en charge la réfection de couverture, la recherche de fuite et l’entretien des toitures du centre et des communes proches.",
+      "Sainte-Foy-la-Grande fait partie de notre périmètre. Pose, entretien, nettoyage de toiture et dépannage pour le centre et les communes proches.",
     highlights: [
-      "Couverture en centre-ville et périphérie",
-      "Diagnostic d’infiltration",
-      "Chantiers soignés sur bâti ancien",
+      "Pose et entretien de toiture",
+      "Nettoyage de toiture",
+      "Dépannage fuite",
     ],
-    seoTitle: "Couvreur Sainte-Foy-la-Grande | Couvreur BDX",
+    seoTitle: "Couvreur Sainte-Foy-la-Grande",
     seoDescription:
-      "Couvreur à Sainte-Foy-la-Grande : couverture, zinguerie et dépannage. Artisan du secteur Coutras.",
+      "Couvreur à Sainte-Foy-la-Grande : pose, entretien et nettoyage de toiture. Artisan du secteur Coutras.",
   },
   {
     slug: "castillon-la-bataille",
@@ -193,15 +193,15 @@ export const zones: Zone[] = [
     department: "Gironde (33)",
     distance: "~35 min de Coutras",
     intro:
-      "À Castillon-la-Bataille, nous intervenons pour vos projets de toiture et vos dépannages. Couvreur BDX apporte un savoir-faire artisanal sur les couvertures typiques de la région.",
+      "À Castillon-la-Bataille, nous intervenons pour vos projets de toiture, nettoyage et terrassement. Devis détaillé avant travaux.",
     highlights: [
-      "Réfection et entretien de toiture",
-      "Zinguerie sur mesure",
-      "Devis détaillé avant travaux",
+      "Pose et entretien de toiture",
+      "Nettoyage de toiture",
+      "Terrassement",
     ],
-    seoTitle: "Couvreur Castillon-la-Bataille | Couvreur BDX",
+    seoTitle: "Couvreur Castillon-la-Bataille",
     seoDescription:
-      "Couvreur à Castillon-la-Bataille : travaux de toiture et zinguerie, intervention depuis Coutras.",
+      "Couvreur à Castillon-la-Bataille : travaux de toiture et terrassement depuis Coutras.",
   },
   {
     slug: "fronsac",
@@ -209,15 +209,15 @@ export const zones: Zone[] = [
     department: "Gironde (33)",
     distance: "~25 min de Coutras",
     intro:
-      "Sur Fronsac et le vignoble voisin, nous réalisons couverture, charpente et zinguerie pour habitations et dépendances. Un chantier propre, adapté aux contraintes du bâti local.",
+      "Sur Fronsac et le vignoble voisin, nous réalisons pose de toiture, entretien, nettoyage et travaux extérieurs pour habitations et dépendances.",
     highlights: [
-      "Toitures de maisons et chais",
-      "Remise en état après intempéries",
-      "Conseils matériaux durables",
+      "Pose de toiture",
+      "Entretien et nettoyage",
+      "Taille de haies",
     ],
-    seoTitle: "Couvreur à Fronsac | Couvreur BDX",
+    seoTitle: "Couvreur à Fronsac",
     seoDescription:
-      "Artisan couvreur à Fronsac : couverture, charpente et zinguerie. Zone couverte depuis Coutras.",
+      "Couvreur à Fronsac : pose, entretien et nettoyage de toiture. Zone couverte depuis Coutras.",
   },
   {
     slug: "saint-emilion",
@@ -225,15 +225,15 @@ export const zones: Zone[] = [
     department: "Gironde (33)",
     distance: "~30 min de Coutras",
     intro:
-      "À Saint-Émilion et alentours, Couvreur BDX intervient sur les toitures, y compris les bâtiments plus anciens. Devis clair, matériaux adaptés, finitions soignées.",
+      "À Saint-Émilion et alentours, Couvreur BDX intervient sur les toitures, y compris les bâtiments plus anciens. Devis clair, finitions soignées.",
     highlights: [
-      "Respect du bâti traditionnel",
-      "Couverture et zinguerie",
+      "Pose et rénovation de toiture",
       "Entretien préventif",
+      "Nettoyage de toiture",
     ],
-    seoTitle: "Couvreur à Saint-Émilion | Couvreur BDX",
+    seoTitle: "Couvreur à Saint-Émilion",
     seoDescription:
-      "Couvreur à Saint-Émilion : rénovation de toiture et zinguerie par un artisan basé près de Coutras.",
+      "Couvreur à Saint-Émilion : pose et entretien de toiture par un artisan basé près de Coutras.",
   },
 ];
 

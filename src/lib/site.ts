@@ -28,6 +28,12 @@ export const site = {
   region: "Nouvelle-Aquitaine",
   areaServed: "Coutras et environs (Libournais)",
   radiusNote: "Intervention dans un rayon d’environ 40 km autour de Coutras",
+  geo: {
+    latitude: 45.1042,
+    longitude: -0.0668,
+  },
+  googleMapsUrl:
+    "https://www.google.com/maps/search/?api=1&query=34+Le+Grand+Maudet+33230+Chamadelle",
   hours: [
     { day: "Lundi", hours: "Disponible 24h/24" },
     { day: "Mardi", hours: "Disponible 24h/24" },

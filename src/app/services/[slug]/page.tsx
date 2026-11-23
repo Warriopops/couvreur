@@ -2,10 +2,11 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { JsonLd } from "@/components/seo/JsonLd";
 import { ButtonLink } from "@/components/ui/ButtonLink";
 import { getService, services } from "@/content/services";
 import { zones } from "@/content/zones";
-import { createMetadata } from "@/lib/seo";
+import { breadcrumbJsonLd, createMetadata, serviceJsonLd } from "@/lib/seo";
 import { site } from "@/lib/site";
 
 export function generateStaticParams() {
@@ -23,6 +24,14 @@ export async function generateMetadata({
     title: service.seoTitle.replace(` | ${site.name}`, ""),
     description: service.seoDescription,
     path: `/services/${service.slug}`,
+    keywords: [
+      `${service.shortTitle} Coutras`,
+      `${service.shortTitle} Libourne`,
+      `${service.shortTitle} Chamadelle`,
+      `couvreur ${service.shortTitle.toLowerCase()}`,
+      site.shortName,
+    ],
+    ogImage: service.image,
   });
 }
 
@@ -35,11 +44,21 @@ export default async function ServicePage({ params }: PageProps<"/services/[slug
 
   return (
     <article className="bg-canvas">
+      <JsonLd
+        data={[
+          serviceJsonLd(service),
+          breadcrumbJsonLd([
+            { name: "Accueil", path: "/" },
+            { name: "Services", path: "/services" },
+            { name: service.shortTitle, path: `/services/${service.slug}` },
+          ]),
+        ]}
+      />
       <div className="shell py-16 sm:py-20">
         <div className="relative mb-10 aspect-[21/9] overflow-hidden rounded-2xl border border-border">
           <Image
             src={service.image}
-            alt={service.title}
+            alt={`${service.title} par ${site.name} à Coutras`}
             fill
             className="object-cover"
             sizes="(max-width: 1024px) 100vw, 72rem"
@@ -48,12 +67,17 @@ export default async function ServicePage({ params }: PageProps<"/services/[slug
           <div className="absolute inset-0 bg-gradient-to-t from-dark/50 to-transparent" />
         </div>
 
-        <p className="text-xs font-semibold uppercase tracking-[0.2em] text-accent">
+        <nav aria-label="Fil d’Ariane" className="text-xs font-semibold uppercase tracking-[0.2em] text-accent">
+          <Link href="/" className="hover:text-ink">
+            Accueil
+          </Link>
+          {" / "}
           <Link href="/services" className="hover:text-ink">
             Services
-          </Link>{" "}
-          / {service.shortTitle}
-        </p>
+          </Link>
+          {" / "}
+          <span className="text-ink">{service.shortTitle}</span>
+        </nav>
         <h1 className="mt-3 max-w-3xl text-4xl font-medium tracking-tight text-ink sm:text-5xl">
           {service.title}
         </h1>

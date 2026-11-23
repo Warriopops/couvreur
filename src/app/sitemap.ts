@@ -1,30 +1,51 @@
 import type { MetadataRoute } from "next";
 import { services } from "@/content/services";
 import { zones } from "@/content/zones";
-import { site } from "@/lib/site";
+import { absoluteUrl } from "@/lib/seo";
 
 const lastModified = new Date("2026-11-23");
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const staticRoutes = ["", "/services", "/contact", "/mentions-legales"].map((path) => ({
-    url: `${site.url}${path}`,
+  const staticRoutes: MetadataRoute.Sitemap = [
+    {
+      url: absoluteUrl("/"),
+      lastModified,
+      changeFrequency: "weekly",
+      priority: 1,
+    },
+    {
+      url: absoluteUrl("/services"),
+      lastModified,
+      changeFrequency: "weekly",
+      priority: 0.9,
+    },
+    {
+      url: absoluteUrl("/contact"),
+      lastModified,
+      changeFrequency: "monthly",
+      priority: 0.8,
+    },
+    {
+      url: absoluteUrl("/mentions-legales"),
+      lastModified,
+      changeFrequency: "yearly",
+      priority: 0.2,
+    },
+  ];
+
+  const serviceRoutes: MetadataRoute.Sitemap = services.map((service) => ({
+    url: absoluteUrl(`/services/${service.slug}`),
     lastModified,
-    changeFrequency: "monthly" as const,
-    priority: path === "" ? 1 : 0.7,
+    changeFrequency: "monthly",
+    priority: service.featured ? 0.85 : 0.75,
+    images: [absoluteUrl(service.image)],
   }));
 
-  const serviceRoutes = services.map((service) => ({
-    url: `${site.url}/services/${service.slug}`,
+  const zoneRoutes: MetadataRoute.Sitemap = zones.map((zone) => ({
+    url: absoluteUrl(`/zones/${zone.slug}`),
     lastModified,
-    changeFrequency: "monthly" as const,
-    priority: 0.8,
-  }));
-
-  const zoneRoutes = zones.map((zone) => ({
-    url: `${site.url}/zones/${zone.slug}`,
-    lastModified,
-    changeFrequency: "monthly" as const,
-    priority: 0.85,
+    changeFrequency: "monthly",
+    priority: zone.slug === "coutras" || zone.slug === "libourne" ? 0.9 : 0.8,
   }));
 
   return [...staticRoutes, ...serviceRoutes, ...zoneRoutes];

@@ -7,10 +7,13 @@ import { ReviewsSection } from "@/components/home/ReviewsSection";
 import { ServicesSection } from "@/components/home/ServicesSection";
 import { TrustSection } from "@/components/home/TrustSection";
 import { ZonesSection } from "@/components/home/ZonesSection";
+import { JsonLd } from "@/components/seo/JsonLd";
+import { faqPageJsonLd } from "@/lib/seo";
 
 export default function HomePage() {
   return (
     <>
+      <JsonLd data={faqPageJsonLd()} />
       <HomeHero />
       <ServicesSection />
       <TrustSection />

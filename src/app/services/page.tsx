@@ -6,10 +6,16 @@ import { services } from "@/content/services";
 import { createMetadata } from "@/lib/seo";
 
 export const metadata: Metadata = createMetadata({
-  title: "Services toiture & extérieur",
+  title: "Services toiture et extérieur",
   description:
-    "Pose, entretien et nettoyage de toiture, taille de haies et terrassement autour de Coutras.",
+    "Tous les services Couvreur BDX à Coutras : pose de toiture, entretien, nettoyage, taille de haies et terrassement. Devis gratuit.",
   path: "/services",
+  keywords: [
+    "services couvreur Coutras",
+    "pose toiture Libournais",
+    "nettoyage toiture Gironde",
+    "terrassement Coutras",
+  ],
 });
 
 export default function ServicesPage() {
