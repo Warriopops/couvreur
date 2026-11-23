@@ -51,6 +51,28 @@
     font-family: var(--font-body), ui-sans-serif, system-ui, sans-serif;
   }
 
+  a,
+  button,
+  summary,
+  [role="button"],
+  label[for],
+  select,
+  input[type="submit"],
+  input[type="button"],
+  input[type="reset"],
+  input[type="checkbox"],
+  input[type="radio"],
+  input[type="file"] {
+    cursor: pointer;
+  }
+
+  a:disabled,
+  button:disabled,
+  input:disabled,
+  select:disabled {
+    cursor: not-allowed;
+  }
+
   ::selection {
     background: color-mix(in srgb, var(--accent) 35%, white);
     color: var(--text-ink);

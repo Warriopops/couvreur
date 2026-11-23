@@ -21,7 +21,7 @@ export function ButtonLink({
   className = "",
 }: ButtonLinkProps) {
   const isExternal = href.startsWith("tel:") || href.startsWith("mailto:");
-  const classes = `inline-flex items-center justify-center gap-2 rounded-xl px-5 py-3 text-sm font-semibold tracking-wide transition duration-200 ${variants[variant]} ${className}`;
+  const classes = `inline-flex cursor-pointer items-center justify-center gap-2 rounded-xl px-5 py-3 text-sm font-semibold tracking-wide transition duration-200 ${variants[variant]} ${className}`;
 
   if (isExternal) {
     return (
