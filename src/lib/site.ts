@@ -3,8 +3,8 @@ export const site = {
   shortName: "Couvreur-BDX",
   tradeLine: "Toiture, entretien, extérieur",
   yearsExperience: 15,
-  domain: "couvreur-bdx.fr",
-  url: "https://couvreur-bdx.fr",
+  domain: "couvreur-bdx.net",
+  url: "https://couvreur-bdx.net",
   tagline: "Artisan depuis 15 ans autour de Coutras",
   description:
     "Artisan depuis 15 ans à Chamadelle, près de Coutras. Pose et entretien de toiture, nettoyage de toiture, taille de haies et terrassement. Travaux sous garantie décennale.",

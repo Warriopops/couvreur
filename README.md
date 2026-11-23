@@ -23,7 +23,7 @@ Ouvrir [http://localhost:3000](http://localhost:3000).
 1. Créer un projet Vercel lié à ce dépôt
 2. Framework : Next.js (détecté via `vercel.json`)
 3. Variables d’environnement : aucune requise pour démarrer
-4. Domaine : pointer `couvreur-bdx.fr` vers Vercel
+4. Domaine : pointer `couvreur-bdx.net` vers Vercel
 
 ## Structure
 
