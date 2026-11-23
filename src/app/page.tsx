@@ -1,0 +1,25 @@
+import { CtaBand } from "@/components/home/CtaBand";
+import { FaqSection } from "@/components/home/FaqSection";
+import { ForcesSection } from "@/components/home/ForcesSection";
+import { GallerySection } from "@/components/home/GallerySection";
+import { HomeHero } from "@/components/home/HomeHero";
+import { ReviewsSection } from "@/components/home/ReviewsSection";
+import { ServicesSection } from "@/components/home/ServicesSection";
+import { TrustSection } from "@/components/home/TrustSection";
+import { ZonesSection } from "@/components/home/ZonesSection";
+
+export default function HomePage() {
+  return (
+    <>
+      <HomeHero />
+      <ServicesSection />
+      <TrustSection />
+      <GallerySection />
+      <ReviewsSection />
+      <ForcesSection />
+      <FaqSection />
+      <ZonesSection />
+      <CtaBand />
+    </>
+  );
+}

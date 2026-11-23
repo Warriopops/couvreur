@@ -1,0 +1,103 @@
+@import "tailwindcss";
+
+:root {
+  --bg-canvas: #e8e5e1;
+  --bg-light: #f0ede8;
+  --bg-surface: #f7f4f0;
+  --bg-dark: #1a1f24;
+  --bg-dark-elevated: #242a30;
+  --text-ink: #14171a;
+  --text-stone: #4a5259;
+  --text-on-dark: #e8eaec;
+  --text-muted-on-dark: #b3bac1;
+  --accent: #b5541c;
+  --accent-hover: #944617;
+  --accent-light: #f4a574;
+  --border-light: #d5cec6;
+  --border-dark: #353c44;
+  --background: var(--bg-canvas);
+  --foreground: var(--text-ink);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-canvas: var(--bg-canvas);
+  --color-light: var(--bg-light);
+  --color-surface: var(--bg-surface);
+  --color-dark: var(--bg-dark);
+  --color-dark-elevated: var(--bg-dark-elevated);
+  --color-ink: var(--text-ink);
+  --color-stone: var(--text-stone);
+  --color-on-dark: var(--text-on-dark);
+  --color-muted-dark: var(--text-muted-on-dark);
+  --color-accent: var(--accent);
+  --color-accent-hover: var(--accent-hover);
+  --color-accent-light: var(--accent-light);
+  --color-border: var(--border-light);
+  --color-border-dark: var(--border-dark);
+  --font-sans: var(--font-body);
+  --font-display: var(--font-body);
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background: var(--bg-canvas);
+    color: var(--text-ink);
+    font-family: var(--font-body), ui-sans-serif, system-ui, sans-serif;
+  }
+
+  ::selection {
+    background: color-mix(in srgb, var(--accent) 35%, white);
+    color: var(--text-ink);
+  }
+}
+
+@layer utilities {
+  .shell {
+    @apply mx-auto w-full max-w-6xl px-4 sm:px-6 lg:px-8;
+  }
+
+  .section-padding {
+    @apply py-14 sm:py-20 lg:py-24;
+  }
+
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .animate-rise {
+    animation: rise 0.75s cubic-bezier(0.22, 1, 0.36, 1) both;
+  }
+
+  .animate-rise-delay {
+    animation: rise 0.75s cubic-bezier(0.22, 1, 0.36, 1) 0.12s both;
+  }
+
+  .animate-rise-delay-2 {
+    animation: rise 0.75s cubic-bezier(0.22, 1, 0.36, 1) 0.24s both;
+  }
+}
+
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-rise,
+  .animate-rise-delay,
+  .animate-rise-delay-2 {
+    animation: none;
+  }
+}
