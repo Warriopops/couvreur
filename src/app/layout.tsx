@@ -21,6 +21,11 @@ const body = Geist({
 export const metadata: Metadata = {
   ...createMetadata({}),
   metadataBase: new URL(site.url),
+  verification: {
+    other: {
+      "msvalidate.01": "3BB53CC1BD300C70E7A7128811D91471",
+    },
+  },
 };
 
 export const viewport: Viewport = {
