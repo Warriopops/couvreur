@@ -72,4 +72,12 @@ export const galleryItems: GalleryItem[] = [
     category: "Couverture",
     description: "Toiture en tuiles canal, gouttière et finitions de rive.",
   },
+  {
+    src: "/images/service-taille-haies.jpg",
+    alt: "Élagage et taille d’arbres avec nacelle",
+    title: "Espaces verts",
+    place: "Libournais",
+    category: "Extérieur",
+    description: "Taille et élagage avec nacelle : haies, arbustes et arbres.",
+  },
 ];
