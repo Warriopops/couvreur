@@ -104,7 +104,9 @@ export default async function ServicePage({ params }: PageProps<"/services/[slug
         </div>
 
         <section className="mt-16 border-t border-border pt-10">
-          <h2 className="text-2xl font-medium text-ink">Aussi disponible autour de Coutras</h2>
+          <h2 className="text-2xl font-medium text-ink">
+            Aussi disponible autour de Coutras, Bordeaux et Bergerac
+          </h2>
           <ul className="mt-5 flex flex-wrap gap-x-5 gap-y-2 text-sm">
             {nearby.map((zone) => (
               <li key={zone.slug}>

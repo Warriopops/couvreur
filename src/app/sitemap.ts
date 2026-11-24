@@ -3,7 +3,7 @@ import { services } from "@/content/services";
 import { zones } from "@/content/zones";
 import { absoluteUrl } from "@/lib/seo";
 
-const lastModified = new Date("2026-11-23");
+const lastModified = new Date("2026-11-24");
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const staticRoutes: MetadataRoute.Sitemap = [
@@ -45,7 +45,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     url: absoluteUrl(`/zones/${zone.slug}`),
     lastModified,
     changeFrequency: "monthly",
-    priority: zone.slug === "coutras" || zone.slug === "libourne" ? 0.9 : 0.8,
+    priority:
+      zone.slug === "coutras" ||
+      zone.slug === "bordeaux" ||
+      zone.slug === "bergerac" ||
+      zone.slug === "libourne"
+        ? 0.9
+        : 0.8,
   }));
 
   return [...staticRoutes, ...serviceRoutes, ...zoneRoutes];

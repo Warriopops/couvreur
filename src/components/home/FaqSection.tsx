@@ -14,8 +14,8 @@ export function FaqSection() {
           Questions fréquentes
         </h2>
         <p className="mt-4 text-base leading-relaxed text-stone">
-          Réponses utiles avant de demander un devis pour vos travaux à Coutras et dans le
-          Libournais.
+          Réponses utiles avant de demander un devis pour vos travaux à Coutras, Bordeaux,
+          Bergerac et dans un rayon d’environ 100 km.
         </p>
 
         <ul className="mt-10 divide-y divide-border border-y border-border">

@@ -28,7 +28,8 @@ export function ForcesSection() {
           Nos forces
         </h2>
         <p className="mt-4 max-w-2xl text-base leading-relaxed text-muted-dark">
-          Artisan depuis 15 ans pour la toiture et les travaux extérieurs autour de Coutras.
+          Artisan depuis 15 ans pour la toiture et les travaux extérieurs, de Coutras jusqu’à
+          Bordeaux et Bergerac.
         </p>
 
         <ul className="mt-12 grid gap-8 sm:grid-cols-2 lg:grid-cols-4">

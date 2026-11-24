@@ -9,7 +9,7 @@ export type Zone = {
   seoDescription: string;
 };
 
-/** Villes et communes autour de Coutras pour le référencement local. */
+/** Villes SEO dans un rayon d’environ 100 km (Coutras → Bordeaux, Bergerac…). */
 export const zones: Zone[] = [
   {
     slug: "coutras",
@@ -28,6 +28,22 @@ export const zones: Zone[] = [
       "Couvreur à Coutras : pose, entretien et nettoyage de toiture, taille de haies et terrassement. Devis gratuit, garantie décennale.",
   },
   {
+    slug: "bordeaux",
+    name: "Bordeaux",
+    department: "Gironde (33)",
+    distance: "~55 km / ~50 min",
+    intro:
+      "Nous intervenons à Bordeaux et sur la métropole : pose de toiture, entretien, nettoyage, taille de haies et terrassement. Artisan basé à Chamadelle, déplacements réguliers vers Bordeaux et sa périphérie.",
+    highlights: [
+      "Pose et rénovation de toiture à Bordeaux",
+      "Entretien et nettoyage de toiture",
+      "Intervention métropole bordelaise",
+    ],
+    seoTitle: "Couvreur à Bordeaux",
+    seoDescription:
+      "Couvreur à Bordeaux : pose, entretien et nettoyage de toiture. Artisan basé près de Coutras, devis gratuit.",
+  },
+  {
     slug: "libourne",
     name: "Libourne",
     department: "Gironde (33)",
@@ -42,6 +58,70 @@ export const zones: Zone[] = [
     seoTitle: "Couvreur à Libourne",
     seoDescription:
       "Couvreur à Libourne : pose, entretien et nettoyage de toiture. Artisan basé près de Coutras, devis gratuit.",
+  },
+  {
+    slug: "bergerac",
+    name: "Bergerac",
+    department: "Dordogne (24)",
+    distance: "~55 km / ~50 min",
+    intro:
+      "À Bergerac et dans le Bergeracois, nous prenons en charge pose, entretien et nettoyage de toiture, ainsi que taille de haies et terrassement. Déplacement depuis Chamadelle dans un rayon d’environ 100 km.",
+    highlights: [
+      "Pose et entretien de toiture à Bergerac",
+      "Nettoyage et démoussage",
+      "Travaux extérieurs",
+    ],
+    seoTitle: "Couvreur à Bergerac",
+    seoDescription:
+      "Couvreur à Bergerac : pose, entretien et nettoyage de toiture. Artisan Gironde–Dordogne, devis gratuit.",
+  },
+  {
+    slug: "saint-andre-de-cubzac",
+    name: "Saint-André-de-Cubzac",
+    department: "Gironde (33)",
+    distance: "~40 min de Coutras",
+    intro:
+      "Sur Saint-André-de-Cubzac et le Cubzaguais, Couvreur BDX assure pose de toiture, entretien, nettoyage et dépannage. Sur la route entre Coutras et Bordeaux.",
+    highlights: [
+      "Pose de toiture à Saint-André-de-Cubzac",
+      "Entretien et nettoyage",
+      "Dépannage fuite",
+    ],
+    seoTitle: "Couvreur Saint-André-de-Cubzac",
+    seoDescription:
+      "Couvreur à Saint-André-de-Cubzac : pose et entretien de toiture. Intervention depuis Coutras vers Bordeaux.",
+  },
+  {
+    slug: "blaye",
+    name: "Blaye",
+    department: "Gironde (33)",
+    distance: "~55 min de Coutras",
+    intro:
+      "À Blaye et sur la rive droite de l’estuaire, nous intervenons pour la pose, l’entretien et le nettoyage de toiture, ainsi que les travaux extérieurs.",
+    highlights: [
+      "Pose et rénovation de toiture à Blaye",
+      "Nettoyage de toiture",
+      "Taille de haies",
+    ],
+    seoTitle: "Couvreur à Blaye",
+    seoDescription:
+      "Couvreur à Blaye : pose, entretien et nettoyage de toiture. Artisan basé près de Coutras.",
+  },
+  {
+    slug: "perigueux",
+    name: "Périgueux",
+    department: "Dordogne (24)",
+    distance: "~70 km / ~1 h",
+    intro:
+      "Nous nous déplaçons jusqu’à Périgueux et ses environs pour vos travaux de toiture, d’entretien et de nettoyage. Dans notre rayon d’environ 100 km depuis Chamadelle.",
+    highlights: [
+      "Pose et entretien de toiture à Périgueux",
+      "Nettoyage de toiture",
+      "Devis gratuit sur place",
+    ],
+    seoTitle: "Couvreur à Périgueux",
+    seoDescription:
+      "Couvreur à Périgueux : pose et entretien de toiture. Intervention depuis Coutras, rayon ~100 km.",
   },
   {
     slug: "saint-denis-de-pile",
@@ -140,6 +220,22 @@ export const zones: Zone[] = [
       "Couvreur à Montpon-Ménestérol : pose et entretien de toiture, artisan basé près de Coutras.",
   },
   {
+    slug: "mussidan",
+    name: "Mussidan",
+    department: "Dordogne (24)",
+    distance: "~40 min de Coutras",
+    intro:
+      "À Mussidan et dans le secteur, Couvreur BDX réalise pose, entretien et nettoyage de toiture. Sur l’axe Coutras–Périgueux / Bergerac.",
+    highlights: [
+      "Pose de toiture à Mussidan",
+      "Entretien et nettoyage",
+      "Terrassement",
+    ],
+    seoTitle: "Couvreur à Mussidan",
+    seoDescription:
+      "Couvreur à Mussidan : pose et entretien de toiture. Intervention depuis Coutras, Dordogne (24).",
+  },
+  {
     slug: "saint-medard-de-guizieres",
     name: "Saint-Médard-de-Guizières",
     department: "Gironde (33)",
@@ -154,6 +250,38 @@ export const zones: Zone[] = [
     seoTitle: "Couvreur Saint-Médard-de-Guizières",
     seoDescription:
       "Couvreur à Saint-Médard-de-Guizières : pose, entretien et nettoyage de toiture autour de Coutras.",
+  },
+  {
+    slug: "branne",
+    name: "Branne",
+    department: "Gironde (33)",
+    distance: "~35 min de Coutras",
+    intro:
+      "À Branne et sur l’axe Libourne–Bordeaux, nous intervenons pour la pose, l’entretien et le nettoyage de toiture, ainsi que les travaux extérieurs.",
+    highlights: [
+      "Pose de toiture à Branne",
+      "Entretien et nettoyage",
+      "Taille de haies",
+    ],
+    seoTitle: "Couvreur à Branne",
+    seoDescription:
+      "Couvreur à Branne : pose et entretien de toiture. Zone couverte depuis Coutras vers Bordeaux.",
+  },
+  {
+    slug: "creon",
+    name: "Créon",
+    department: "Gironde (33)",
+    distance: "~50 min de Coutras",
+    intro:
+      "Sur Créon et l’Entre-deux-Mers, Couvreur BDX propose pose de toiture, entretien, nettoyage et terrassement. Dans notre rayon d’environ 100 km.",
+    highlights: [
+      "Pose et rénovation de toiture à Créon",
+      "Nettoyage de toiture",
+      "Terrassement",
+    ],
+    seoTitle: "Couvreur à Créon",
+    seoDescription:
+      "Couvreur à Créon : pose, entretien et nettoyage de toiture. Artisan depuis Coutras, Entre-deux-Mers.",
   },
   {
     slug: "pineuilh",

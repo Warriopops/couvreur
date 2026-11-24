@@ -28,7 +28,8 @@ export function TrustSection() {
           Pourquoi nous faire confiance
         </h2>
         <p className="mt-4 max-w-2xl text-base leading-relaxed text-stone">
-          Devis et déplacement gratuits à Coutras et dans le Libournais.
+          Devis et déplacement gratuits à Coutras, Bordeaux, Bergerac et dans un rayon
+          d’environ 100 km.
         </p>
 
         <ul className="mt-12 grid gap-8 sm:grid-cols-2 lg:grid-cols-4">

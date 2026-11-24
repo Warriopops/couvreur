@@ -8,13 +8,13 @@ import { createMetadata } from "@/lib/seo";
 export const metadata: Metadata = createMetadata({
   title: "Services toiture et extérieur",
   description:
-    "Tous les services Couvreur BDX à Coutras : pose de toiture, entretien, nettoyage, taille de haies et terrassement. Devis gratuit.",
+    "Services Couvreur BDX : pose, entretien et nettoyage de toiture à Coutras, Bordeaux et Bergerac. Devis gratuit.",
   path: "/services",
   keywords: [
     "services couvreur Coutras",
-    "pose toiture Libournais",
-    "nettoyage toiture Gironde",
-    "terrassement Coutras",
+    "pose toiture Bordeaux",
+    "nettoyage toiture Bergerac",
+    "terrassement Gironde",
   ],
 });
 
@@ -24,7 +24,7 @@ export default function ServicesPage() {
       <div className="shell py-16 sm:py-20">
         <p className="text-xs font-semibold uppercase tracking-[0.2em] text-accent">Services</p>
         <h1 className="mt-3 max-w-3xl text-4xl font-medium tracking-tight text-ink sm:text-5xl">
-          Toiture et extérieur, autour de Coutras
+          Toiture et extérieur, jusqu’à Bordeaux et Bergerac
         </h1>
         <p className="mt-5 max-w-2xl text-lg leading-relaxed text-stone">
           Pose, entretien et nettoyage de toiture, taille de haies ou d’arbustes, et

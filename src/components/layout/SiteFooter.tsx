@@ -5,7 +5,7 @@ import { zones } from "@/content/zones";
 import { site } from "@/lib/site";
 
 export function SiteFooter() {
-  const zoneLinks = zones.slice(0, 10);
+  const zoneLinks = zones.slice(0, 12);
 
   return (
     <footer className="bg-dark text-on-dark">
@@ -14,7 +14,7 @@ export function SiteFooter() {
           <Logo variant="light" />
           <p className="mt-4 max-w-xs text-sm leading-relaxed text-muted-dark">
             Artisan depuis {site.yearsExperience} ans : pose, entretien et nettoyage de toiture,
-            taille de haies et terrassement autour de Coutras.
+            taille de haies et terrassement. Coutras, Bordeaux, Bergerac — rayon ~100 km.
           </p>
           <p className="mt-5 text-sm leading-relaxed text-muted-dark">
             {site.address}

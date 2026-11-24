@@ -1,7 +1,7 @@
 import { ImageResponse } from "next/og";
 import { site } from "@/lib/site";
 
-export const alt = `${site.name} : couvreur à Coutras et dans le Libournais`;
+export const alt = `${site.name} : couvreur Coutras, Bordeaux, Bergerac`;
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
@@ -54,7 +54,7 @@ export default function OpenGraphImage() {
               maxWidth: 920,
             }}
           >
-            Couvreur à Coutras et dans le Libournais
+            Couvreur Coutras · Bordeaux · Bergerac
           </div>
           <div style={{ fontSize: 26, color: "#B3BAC1", maxWidth: 860, lineHeight: 1.35 }}>
             Pose, entretien et nettoyage de toiture, taille de haies et terrassement.

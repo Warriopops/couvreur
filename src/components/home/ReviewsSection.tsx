@@ -20,8 +20,8 @@ export function ReviewsSection() {
           <div className="max-w-2xl">
             <h2 className="text-3xl font-medium tracking-tight sm:text-4xl">Avis clients</h2>
             <p className="mt-4 text-base leading-relaxed text-stone">
-              Retours de clients sur {reviewsSummary.sourceName}, autour de Libourne et du
-              Libournais.
+              Retours de clients sur {reviewsSummary.sourceName}, autour de Libourne, Coutras
+              et le Libournais.
             </p>
           </div>
           <div className="text-left sm:text-right">

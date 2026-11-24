@@ -4,7 +4,7 @@ import { services } from "@/content/services";
 import { zones } from "@/content/zones";
 import { site } from "@/lib/site";
 
-const defaultTitle = `Couvreur à Coutras et Libournais | ${site.name}`;
+const defaultTitle = `Couvreur Coutras, Bordeaux, Bergerac | ${site.name}`;
 
 export function siteHost() {
   return new URL(site.url).host;
@@ -48,15 +48,18 @@ export function createMetadata({
       ? keywords
       : [
           "couvreur Coutras",
+          "couvreur Bordeaux",
+          "couvreur Bergerac",
           "couvreur Chamadelle",
           "pose de toiture Coutras",
-          "entretien toiture Coutras",
-          "nettoyage toiture Coutras",
+          "entretien toiture Bordeaux",
+          "nettoyage toiture Bergerac",
           "démoussage toiture Libourne",
           "taille de haies Coutras",
           "terrassement Coutras",
           "couvreur Libourne",
-          "couvreur Libournais",
+          "couvreur Gironde",
+          "couvreur Dordogne",
           site.shortName,
         ],
     alternates: {
@@ -74,7 +77,7 @@ export function createMetadata({
           url: ogImage,
           width: 1200,
           height: 630,
-          alt: `${site.name} : couvreur à Coutras`,
+          alt: `${site.name} : couvreur Coutras, Bordeaux, Bergerac`,
         },
       ],
     },
@@ -99,7 +102,7 @@ export function createMetadata({
         },
     other: {
       "geo.region": "FR-33",
-      "geo.placename": `${site.city}, Coutras`,
+      "geo.placename": `${site.city}, Coutras, Bordeaux`,
       "geo.position": `${site.geo.latitude};${site.geo.longitude}`,
       ICBM: `${site.geo.latitude}, ${site.geo.longitude}`,
     },
@@ -143,7 +146,7 @@ export function localBusinessJsonLd() {
           latitude: site.geo.latitude,
           longitude: site.geo.longitude,
         },
-        geoRadius: "40000",
+        geoRadius: "100000",
       },
       ...zones.map((zone) => ({
         "@type": "City",

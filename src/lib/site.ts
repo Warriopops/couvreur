@@ -7,9 +7,9 @@ export const site = {
   url: "https://couvreur-bdx.net",
   /** Clé IndexNow (fichier public/{key}.txt à la racine). */
   indexNowKey: "4f844d506563f7f1f2421c46791ce15b",
-  tagline: "Artisan depuis 15 ans autour de Coutras",
+  tagline: "Artisan depuis 15 ans — Coutras, Bordeaux, Bergerac",
   description:
-    "Artisan depuis 15 ans à Chamadelle, près de Coutras. Pose et entretien de toiture, nettoyage de toiture, taille de haies et terrassement. Travaux sous garantie décennale.",
+    "Artisan depuis 15 ans à Chamadelle, près de Coutras. Pose et entretien de toiture, nettoyage, taille de haies et terrassement. Intervention jusqu’à Bordeaux et Bergerac, dans un rayon d’environ 100 km. Travaux sous garantie décennale.",
   phone: "07 80 07 45 45",
   phoneHref: "tel:+33780074545",
   email: "jorisloubere74@gmail.com",
@@ -28,8 +28,9 @@ export const site = {
   city: "Chamadelle",
   department: "Gironde",
   region: "Nouvelle-Aquitaine",
-  areaServed: "Coutras et environs (Libournais)",
-  radiusNote: "Intervention dans un rayon d’environ 40 km autour de Coutras",
+  areaServed: "Coutras, Bordeaux, Bergerac et environs (rayon ~100 km)",
+  radiusNote:
+    "Intervention dans un rayon d’environ 100 km autour de Coutras, jusqu’à Bordeaux et Bergerac",
   geo: {
     latitude: 45.1042,
     longitude: -0.0668,

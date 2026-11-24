@@ -10,7 +10,7 @@ export function ServicesSection() {
           <h2 className="text-3xl font-medium tracking-tight sm:text-4xl">Nos prestations</h2>
           <p className="mt-4 text-base leading-relaxed text-stone">
             Pose, entretien et nettoyage de toiture, taille de haies ou d’arbustes, et
-            terrassement autour de Coutras.
+            terrassement — Coutras, Bordeaux, Bergerac et environs.
           </p>
         </div>
 

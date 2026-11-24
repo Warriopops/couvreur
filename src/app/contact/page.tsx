@@ -6,11 +6,12 @@ import { site } from "@/lib/site";
 export const metadata: Metadata = createMetadata({
   title: "Contact et devis gratuit",
   description:
-    "Demandez un devis gratuit à Couvreur BDX : pose, entretien ou nettoyage de toiture autour de Coutras et Libourne. Tél. 07 80 07 45 45.",
+    "Demandez un devis gratuit à Couvreur BDX : toiture autour de Coutras, Bordeaux et Bergerac. Tél. 07 80 07 45 45.",
   path: "/contact",
   keywords: [
     "devis couvreur Coutras",
-    "devis toiture Libourne",
+    "devis toiture Bordeaux",
+    "devis toiture Bergerac",
     "contacter couvreur Chamadelle",
     "Couvreur BDX téléphone",
   ],
@@ -27,7 +28,7 @@ export default function ContactPage() {
           </h1>
           <p className="mt-5 max-w-xl text-lg leading-relaxed text-stone">
             Décrivez brièvement le besoin (fuite, démoussage, rénovation…). On vous rappelle
-            pour caler une visite autour de Coutras.
+            pour caler une visite (Coutras, Bordeaux, Bergerac et environs).
           </p>
 
           <dl className="mt-10 space-y-6">
@@ -75,7 +76,7 @@ export default function ContactPage() {
         <aside className="rounded-2xl border border-border bg-surface p-6 sm:p-8">
           <h2 className="text-xl font-medium text-ink">Pour un devis utile</h2>
           <ul className="mt-5 space-y-3 text-sm leading-relaxed text-stone">
-            <li>Adresse approximative ou commune (Coutras, Libourne…)</li>
+            <li>Adresse approximative ou commune (Coutras, Bordeaux, Bergerac…)</li>
             <li>Type de toiture si connu (tuiles, ardoise…)</li>
             <li>Urgence ou projet planifié</li>
             <li>Photos éventuelles des désordres</li>

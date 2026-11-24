@@ -17,7 +17,7 @@ export const services: Service[] = [
     title: "Pose de toiture et couverture",
     shortTitle: "Pose de toiture",
     summary:
-      "Pose et couverture de toiture en neuf comme en rénovation, autour de Coutras.",
+      "Pose et couverture de toiture en neuf comme en rénovation, de Coutras jusqu’à Bordeaux et Bergerac.",
     intro:
       "Artisan depuis 15 ans. Pose de toiture et couverture en tuiles ou ardoises, faîtages et finitions. Neuf ou rénovation, chantier soigné et suivi jusqu’à la fin. Garantie décennale.",
     points: [
@@ -28,7 +28,7 @@ export const services: Service[] = [
     ],
     seoTitle: "Pose de toiture Coutras | Couvreur BDX",
     seoDescription:
-      "Pose de toiture et couverture près de Coutras : neuf et rénovation par un artisan depuis 15 ans.",
+      "Pose de toiture près de Coutras, Bordeaux et Bergerac : neuf et rénovation par un artisan depuis 15 ans.",
     image: "/images/service-pose-toiture.jpg",
     featured: true,
   },
@@ -79,7 +79,7 @@ export const services: Service[] = [
     summary:
       "Taille de haies, arbustes et entretien végétal autour de votre maison.",
     intro:
-      "On fait aussi la taille de haies et d’arbustes. Intervention locale autour de Coutras, Chamadelle et le Libournais.",
+      "On fait aussi la taille de haies et d’arbustes. Intervention locale autour de Coutras, jusqu’à Bordeaux et Bergerac.",
     points: [
       "Taille de haies",
       "Taille d’arbustes",

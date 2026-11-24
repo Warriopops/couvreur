@@ -7,7 +7,7 @@ export const faqItems: FaqItem[] = [
   {
     question: "Dans quelles villes intervenez-vous ?",
     answer:
-      "Basés à Chamadelle, près de Coutras, nous intervenons dans le Libournais et l’est de la Gironde : Coutras, Libourne, Saint-Denis-de-Pile, Guîtres, Abzac, Saint-Seurin-sur-l’Isle, Montpon-Ménestérol, Pineuilh, Sainte-Foy-la-Grande, Castillon, Fronsac, Saint-Émilion et communes voisines.",
+      "Basés à Chamadelle, près de Coutras, nous intervenons dans un rayon d’environ 100 km : Bordeaux, Bergerac, Libourne, Périgueux, Blaye, Saint-André-de-Cubzac, Montpon-Ménestérol, Sainte-Foy-la-Grande, Saint-Émilion et les communes autour.",
   },
   {
     question: "Quels travaux réalisez-vous ?",
